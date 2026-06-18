@@ -12,9 +12,9 @@ const client = new Client({
 
 const CONFIG = {
   TOKEN: process.env.TOKEN,
-  LOG_CHANNEL_ID: 'YOUR_LOG_CHANNEL_ID',
-  OWNER_IDS: ['YOUR_USER_ID'],
-  TRUSTED_ROLE_ID: 'TRUSTED_ROLE_ID',
+  LOG_CHANNEL_ID: process.env.LOG_CHANNEL_ID,
+  OWNER_IDS: [process.env.OWNER_IDS],
+  TRUSTED_ROLE_ID: process.env.TRUSTED_ROLE_ID,
   JOIN_THRESHOLD: 10,
   JOIN_WINDOW: 10000,
   MIN_ACCOUNT_AGE: 7,
