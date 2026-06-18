@@ -11,7 +11,7 @@ const client = new Client({
 });
 
 const CONFIG = {
-  TOKEN: 'YOUR_BOT_TOKEN',
+  TOKEN: process.env.TOKEN,
   LOG_CHANNEL_ID: 'YOUR_LOG_CHANNEL_ID',
   OWNER_IDS: ['YOUR_USER_ID'],
   TRUSTED_ROLE_ID: 'TRUSTED_ROLE_ID',
