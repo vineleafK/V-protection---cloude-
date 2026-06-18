@@ -1,0 +1,11 @@
+{
+  "name": "discord-protection-bot",
+  "version": "1.0.0",
+  "main": "protection_bot.js",
+  "scripts": {
+    "start": "node protection_bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  }
+}
